@@ -1,0 +1,35 @@
+<svg width="600" height="160" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .label { font: bold 14px sans-serif; fill: #ffffff; }
+    .bg { fill: #444; }
+    .bar { fill: #00c4ff; }
+  </style>
+
+  <!-- HTML -->
+  <text x="10" y="30" class="label">HTML</text>
+  <rect x="80" y="18" width="480" height="16" class="bg" rx="8"/>
+  <rect x="80" y="18" width="450" height="16" class="bar" rx="8">
+    <animate attributeName="width" from="0" to="450" dur="1s" fill="freeze" />
+  </rect>
+
+  <!-- CSS -->
+  <text x="10" y="70" class="label">CSS</text>
+  <rect x="80" y="58" width="480" height="16" class="bg" rx="8"/>
+  <rect x="80" y="58" width="400" height="16" class="bar" rx="8">
+    <animate attributeName="width" from="0" to="400" dur="1s" fill="freeze" />
+  </rect>
+
+  <!-- JavaScript -->
+  <text x="10" y="110" class="label">JavaScript</text>
+  <rect x="80" y="98" width="480" height="16" class="bg" rx="8"/>
+  <rect x="80" y="98" width="350" height="16" class="bar" rx="8">
+    <animate attributeName="width" from="0" to="350" dur="1s" fill="freeze" />
+  </rect>
+
+  <!-- Python -->
+  <text x="10" y="150" class="label">Python</text>
+  <rect x="80" y="138" width="480" height="16" class="bg" rx="8"/>
+  <rect x="80" y="138" width="300" height="16" class="bar" rx="8">
+    <animate attributeName="width" from="0" to="300" dur="1s" fill="freeze" />
+  </rect>
+</svg>
