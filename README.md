@@ -33,10 +33,7 @@
 
 ---
 
-### ⚡ Fun Facts  
-- ☕ Coffee is my best coding partner  
-- 🎵 I love listening to music while coding  
-- 🌌 I believe in creativity & consistency  
+
 
 ---
 
